@@ -11,8 +11,29 @@
 
 <body>
     <div class="container mt-3">
+        <h3>Nosso modal</h3>
+        <p>Clique no botao abaixo</p>
 
+        <button type="button" class="btn btn-dark " data-bs-toggle="modal" data-bs-target="#myModal">
+            Abrir modal
+        </button>
+    </div>
+    <div class="modal fade " id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Titulo do modal</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    TEXTO DO MEU MODAL...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
 
+                </div>
+            </div>
+        </div>
     </div>
 
 
